@@ -1,0 +1,94 @@
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+nav
+{
+    margin-left: 5%;
+    width: 90%;
+    background-color: #E6E6E6;
+    padding-left:10px;
+}
+
+body
+{
+    background-color: #BEBFC4;
+}
+
+#submit
+{
+    background-color: #fc5645;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    height: 46px;
+    margin-left: 2%;
+    position: relative;
+    width: 18%;
+}
+
+#recette
+{
+    width: 50%;
+}
+
+.container
+{
+    padding:10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+    background-color: #E6E6E6;
+    width: 90%;
+}
+
+#min
+{
+    font-size: 12px;
+}
+
+.opacity
+{
+    opacity: 0.1;
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+}
+
+.min
+{
+    font-size: 10px;
+    color: #5a5a5a;
+}
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+* html .ui-autocomplete {
+    height: 100px;
+}
